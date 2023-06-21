@@ -33,3 +33,13 @@ In Linux, /etc is a directory that contains configuration files for the system. 
 ```bash
 cd /rtc
 ```
+### 8. Stop/start/restart apache server
+```bash
+sudo /etc/init.d/apache2 stop
+```
+```bash
+sudo /etc/init.d/apache2 start
+```
+```bash
+sudo /etc/init.d/apache2 restart
+```
