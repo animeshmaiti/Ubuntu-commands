@@ -43,3 +43,12 @@ sudo /etc/init.d/apache2 start
 ```bash
 sudo /etc/init.d/apache2 restart
 ```
+### 9. Change any user password
+this command is very useful for change any user password if any permission error occur then use sudo before command or su as root user root help to change directory permissions
+```bash
+su root
+```
+ when you switch user you need password of root user if ypu don't know password of root user then use this command
+```bash
+sudo passwd root
+```
