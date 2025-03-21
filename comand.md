@@ -48,7 +48,14 @@ this command is very useful for change any user password if any permission error
 ```bash
 su root
 ```
- when you switch user you need password of root user if ypu don't know password of root user then use this command
+### 10. when you switch user you need password of root user if ypu don't know password of root user then use this command
 ```bash
 sudo passwd root
+```
+### 11. Hyper- Setup for smooth settings
+```bash
+sudo nano /etc/modprobe.d/blacklist.conf
+```
+```nano
+blacklist hyperv_fb
 ```
